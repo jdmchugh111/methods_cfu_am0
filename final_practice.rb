@@ -34,7 +34,7 @@ puts greet_sally
 
 
 # What is the return value of your method? The return value is a string that has "Hello" and the argument you input for the custom_greeting method
-# How many arguments did you pass your method? one argument per each time the method was run (2 total)
+# How many arguments did you pass your method? one argument per each time the method was called (2 total)
 # What data type was your argument(s)? the arguments are strings
 
 
@@ -52,7 +52,7 @@ puts greet_ffc
 
 
 # What is the return value of your method? a string with "Hello" followed by three arguments input for first_name, middle_name, and last_name
-# How many arguments did you pass your method? 3 per each time the method was run (6 total)
+# How many arguments did you pass your method? 3 per each time the method was called (6 total)
 # What data type was your argument(s)? they were strings
 
 
@@ -70,7 +70,7 @@ puts three_squared
 puts five_squared
 
 # What is the return value of your method? a string reading "The square of 3 is 9" or applicable to any integer you pass the square method on
-# How many arguments did you pass your method? one argument per each time the method was run (2 total)
+# How many arguments did you pass your method? one argument per each time the method was called (2 total)
 # What data type was your argument(s)? integer
 
 
