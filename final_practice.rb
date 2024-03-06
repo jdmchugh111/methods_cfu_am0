@@ -6,30 +6,35 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 
-def greeting(name)
-    "Hello, #{name}"
+def greeting
+    puts "Hello"
 end
 
-puts greeting("Harry")
-puts greeting ("Sally")
+hello_1 = greeting
+hello_2 = greeting
 
+puts hello_1
+puts hello_2
 
-# What is the return value of your method? The return value is a string that has "Hello" and the argument you input for the greeting method
-# How many arguments did you pass your method? two, "Harry" and "Sally"
+# What is the return value of your method? the return value is the string "Hello"
+# How many arguments did you pass your method? none
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 
-def greeting(name)
+def custom_greeting(name)
     "Hello, #{name}"
 end
 
-puts greeting("Harry")
-puts greeting ("Sally")
+greet_harry = custom_greeting("Harry")
+greet_sally = custom_greeting("Sally")
+
+puts greet_harry
+puts greet_sally
 
 
-# What is the return value of your method? same as above, I realized I inadvertently skipped a step
-# How many arguments did you pass your method? two arguments
+# What is the return value of your method? The return value is a string that has "Hello" and the argument you input for the custom_greeting method
+# How many arguments did you pass your method? one argument per each time the method was run (2 total)
 # What data type was your argument(s)? the arguments are strings
 
 
@@ -39,12 +44,15 @@ def greet_person(first_name, middle_name, last_name)
     "Hello, #{first_name} #{middle_name} #{last_name}"
 end
 
-puts greet_person("David", "Foster", "Wallace")
-puts greet_person("Francis", "Ford", "Coppola")
+greet_dfw = greet_person("David", "Foster", "Wallace")
+greet_ffc = greet_person("Francis", "Ford", "Coppola")
+
+puts greet_dfw
+puts greet_ffc
 
 
 # What is the return value of your method? a string with "Hello" followed by three arguments input for first_name, middle_name, and last_name
-# How many arguments did you pass your method? I think it would be 3, but I'm not sure if it's considered just one argument if it's in the same set of parenteheses
+# How many arguments did you pass your method? 3 per each time the method was run (6 total)
 # What data type was your argument(s)? they were strings
 
 
@@ -55,10 +63,14 @@ def square(int_1)
 puts "The square of #{int_1} is #{int_1 * int_1}"
 end
 
-puts square(3)
+three_squared = square(3)
+five_squared = square(5)
+
+puts three_squared
+puts five_squared
 
 # What is the return value of your method? a string reading "The square of 3 is 9" or applicable to any integer you pass the square method on
-# How many arguments did you pass your method? one argument
+# How many arguments did you pass your method? one argument per each time the method was run (2 total)
 # What data type was your argument(s)? integer
 
 
